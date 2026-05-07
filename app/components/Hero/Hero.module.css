@@ -1,0 +1,47 @@
+.heroBanner {
+    padding: 40px 50px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/bgci.jpg");
+    background-size: cover;       
+    background-position: center;                                                                                                          
+    background-repeat: no-repeat; 
+}
+
+.searchBarContainer{
+    margin: 0 auto;
+    padding-bottom: 80px;
+    width: 900px;
+    max-width: 900px;
+}
+
+.titleContainer{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    color: #FFD15B;
+    text-transform: uppercase;
+}
+
+.titleContainer h1{
+    font-family: var(--font-anton);
+    font-weight: 300;
+}
+
+.notFoundContainer {
+    padding: 300px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.notFound {
+    color: #FFD15B;
+    font-size: 50px;
+}
