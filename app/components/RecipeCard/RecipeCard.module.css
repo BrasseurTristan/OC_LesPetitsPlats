@@ -1,0 +1,68 @@
+.card{
+    position: relative;
+    width: 380px;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 34px 30px #0000000A;
+    background-color: #fff;
+    transition: all 70ms;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+
+.heroImage{
+    position: relative;
+    width: 100%;
+}
+.badge{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 1;
+}
+
+.image{
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    max-height: 250px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card h3 {
+    font-family: var(--font-anton);
+    letter-spacing: 4%;
+    padding: 20px 0
+}
+
+.titles {
+    color: #7A7A7A;
+    letter-spacing: 5%;
+    padding-bottom: 10px;
+}
+
+.recipeDescription, .ingredientsList {
+    display: flex;
+    flex-direction: column;
+    padding:0 16px 20px 16px;
+}
+.recipeDescription p {
+    font-size: medium;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients span:last-child{
+    color: #7A7A7A;
+}

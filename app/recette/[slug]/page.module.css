@@ -1,0 +1,104 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 90px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.imageContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.picture {
+    position: relative !important;
+    object-fit: cover;
+    width: 80%;
+    max-width: 650px;
+    height: fit-content;
+    max-height: 750px;
+    border-radius: 20px;
+}
+.recipeContainer h1{
+    font-weight: 800;
+    font-family: var(--font-anton);
+}
+
+
+.recipeContainer h2 {
+    font-family: var(--font-man-rope);
+    color: #7A7A7A;
+    font-size: medium;
+    letter-spacing: 7%;
+    text-transform: uppercase;
+}
+.preparationTime{
+    padding: 10px 0;
+}
+
+.preparationTime h2{
+    padding: 10px 0;
+}
+.ingredientsList{
+    padding: 10px 0;
+}
+
+.ingredients {
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.ingredients div {
+    display: flex;
+    flex-direction: column;
+}
+.ingredients div span:last-child{
+    color: #7A7A7A;
+    text-transform: lowercase;
+}
+
+.ustensilsList{
+    padding: 15px 0;
+}
+
+.ustensils {
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.ustensils div {
+    display: flex;
+    flex-direction: column;
+}
+
+.ustensils div span:last-child{
+    color: #7A7A7A;
+}
+
+.applianceList{
+    padding: 15px 0;
+}
+
+.appliance{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.appliance span:last-child{
+    color: #7A7A7A;
+}
+
+.description {
+    padding: 15px 0;
+}
+
+.description div {
+    padding: 15px 0;
+}

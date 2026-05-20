@@ -2,7 +2,7 @@
     {
         "id": 1,
         "image": "Recette01.jpg",
-        "name" : "Limonade de Coco",
+        "name" : "Limonade de coco",
         "slug": "limonade-de-coco",
         "servings" : 1,
         "ingredients": [
@@ -30,9 +30,9 @@
             }
         ],
         "time": 10,
-        "description": "Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée",
+        "description": "Mettre les glaçons à votre goût dans le blender, ajouter le lait, la crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir la consistence désirée.",
         "appliance": "Blender",
-        "ustensils": ["cuillère à Soupe", "verres", "presse citron" ]
+        "ustensils": ["cuillère à soupe", "verres", "presse citron" ]
     },
     {
         "id": 2,
@@ -379,7 +379,7 @@
         "time": 60,
         "description": "Commencer par cuire les pommes de terre dans l'eau bouillante. Puis épluchez les et coupez les en rondelles. Émincer les oignons puis les faire dorer dans du beurre. Ajouter le jambon fumé coupé en en morceaux ainsi que les pommes de terres. Salez, poivrez à votre gout ( et celui de vos convives ) Laissez cuisiner durant environ 10 minutes puis ajouter le vin blanc. Après 5 minutes, mettre le tout dans un plat à gratin. Coupez le reblochon, soit en tranches, soit le couper en 2 dans le sens de l'épaisseur et recouvrir les pommes de terre. Cuire au four (environ 220°) durant 25 minutes. C'est prêt !",
         "appliance":"Four",
-        "ustensils": ["plat à gratin", "couteau","Économe"]
+        "ustensils": ["plat à gratin", "couteau","économe"]
     },{
         "id": 11,
         "image": "Recette11.jpg",

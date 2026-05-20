@@ -1,6 +1,6 @@
 .page {
-  --background: #fafafa;
-  --foreground: #fff;
+  --background: #EDEDED;
+  --foreground: #EDEDED;
 
   --text-primary: #000;
   --text-secondary: #666;
@@ -14,15 +14,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-anton);
+  font-family: var(--font-man-rope);
   background-color: var(--background);
 }
 
 .main {
   display: flex;
   flex: 1;
-  width: 100%;
-  max-width: 800px;
+  margin: 0 auto;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
@@ -94,6 +93,7 @@ a.secondary {
   border-color: var(--button-secondary-border);
 }
 
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
@@ -106,7 +106,11 @@ a.secondary {
     border-color: transparent;
   }
 }
-
+.recipesList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
 @media (max-width: 600px) {
   .main {
     padding: 48px 24px;
