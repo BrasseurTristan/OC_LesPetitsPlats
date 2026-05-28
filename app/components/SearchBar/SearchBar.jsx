@@ -1,9 +1,14 @@
+"use client"
 import styles from "./SearchBar.module.css"
 
-export default function SearchBar() {
+export default function SearchBar({onChange}) {
+
+    
+
+   
     return (
         <div className={styles.wrapper}>
-            <input className={styles.input} placeholder="Rechercher une recette, un ingrédient,..." />
+            <input className={styles.input} placeholder="Rechercher une recette, un ingrédient,..." onChange={(e => onChange(e.target.value))} />
             <button className={styles.iconButton} type="button" aria-label="Rechercher">
                 <svg className={styles.icon} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="11" cy="11" r="8" />

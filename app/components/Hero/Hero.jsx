@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from "./Hero.module.css"
 import SearchBar from "../SearchBar/SearchBar"
 
-export default function Hero({searchBar, notFound}) {
+export default function Hero({searchBar, notFound, onChange}) {
     
     return(
         <section className={styles.heroBanner}>
@@ -15,7 +15,7 @@ export default function Hero({searchBar, notFound}) {
                     <div className={styles.titleContainer}>
                         <h1>Découvrez nos recettes <br></br> du quotidien, simples et délicieuses</h1>
                     </div>
-                    <SearchBar/>
+                    <SearchBar onChange={onChange}/>
                 </div>
             )}
             {notFound && (

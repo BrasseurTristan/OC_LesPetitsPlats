@@ -26,7 +26,7 @@
   align-items: flex-start;
   justify-content: space-between;
   background-color: var(--foreground);
-  padding: 120px 60px;
+  padding: 60px 0px;
 }
 
 .intro {
@@ -106,11 +106,33 @@ a.secondary {
     border-color: transparent;
   }
 }
+
+.searchOptionsContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.recipesOptions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.recipesCounter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 800;
+  white-space: nowrap;
+}
 .recipesList{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 60px;
 }
+
 @media (max-width: 600px) {
   .main {
     padding: 48px 24px;

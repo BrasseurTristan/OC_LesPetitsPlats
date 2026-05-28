@@ -13,7 +13,7 @@ export default function RecipeCard(props){
             <div className={styles.card}>
                 <div className={styles.heroImage}>
                     <PreparationTimeBadge timer={time} className={styles.badge} />
-                    <Image className={styles.image} src={`/recipes/${image}`} alt={name} fill priority/>
+                    <Image className={styles.image} src={`/recipes/${image}`} alt={name} fill sizes="380px" priority/>
                 </div>
                 <div className={styles.recipeDescription}>
                 <h3>{name}</h3>
